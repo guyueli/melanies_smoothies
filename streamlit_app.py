@@ -31,8 +31,6 @@ ingredients_list = st.multiselect(
     , max_selections=5
 )
 
-st.write('Why nothing displayed')
-
 if ingredients_list:
 
     ingredients_string = ''
