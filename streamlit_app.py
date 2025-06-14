@@ -30,7 +30,7 @@ ingredients_list = st.multiselect(
     , max_selections=5
 )
 
-sp.write('Why nothing displayed')
+st.write('Why nothing displayed')
 
 if ingredients_list:
 
